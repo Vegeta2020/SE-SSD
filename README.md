@@ -8,3 +8,7 @@ The paper will be released to arxiv soon, and the complete codebase and pre-trai
 ## AP on KITTI Dataset
 
 Test Split: [Submission link](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=14e5c4daac79d3aef85a842f79538defb1b37ad1)
+
+
+## Acknowledgement
+Our code are mainly based on [CIA-SSD](https://github.com/Vegeta2020/CIA-SSD). We thank for the reviewers's valuable comments on this paper.
