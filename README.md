@@ -45,6 +45,9 @@ $ cd ./SE-SSD/det3d/core/iou3d
 $ python setup.py install
 $ cd ./SE-SSD
 $ python setup.py build develop
+
+$ git clone https://github.com/jackd/ifp-sample.git
+$ pip install -e ifp-sample
 ```
 Please follow Det3D for installation of other [related packages](https://github.com/poodarchu/Det3D/blob/master/INSTALLATION.md) and [data preparation](https://github.com/poodarchu/Det3D/blob/master/GETTING_STARTED.md).
 
