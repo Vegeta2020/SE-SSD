@@ -982,7 +982,7 @@ class MultiGroupHead(nn.Module):
                 boxes_for_nms = box_preds[:, [0, 1, 3, 4, -1]]
 
                 # REMOVE overlap boxes by bev rotate-nms.
-                nms_type = "rotate_weighted_nms"
+                nms_type = "rotate_nms"
                 if nms_type == "rotate_nms":      # DEFAULT NMS
                     nms_func = box_torch_ops.rotate_nms
                     selected = nms_func(boxes_for_nms,
