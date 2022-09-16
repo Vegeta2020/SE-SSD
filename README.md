@@ -5,6 +5,10 @@ An accurate and fast single-stage 3D object detection framework on KITTI dataset
 **Authors**: [Wu Zheng](https://github.com/Vegeta2020), Weiliang Tang, [Li Jiang](https://github.com/llijiang), Chi-Wing Fu.
 
 
+## TensorRT Version
+A faster [TensorRT version](https://github.com/jingyue202205/SE-SSD-AI-TRT) of SE-SSD is going to be available thanks to [@jingyue202205](https://github.com/jingyue202205).
+
+
 ## AP on KITTI Dataset
 
 
