@@ -53,7 +53,7 @@ def kitti_data_prep(root_path):
     #kitti_ds.create_kitti_info_file(root_path)
 
     # all points outside of image_range are removed and kept as reduced point_cloud .bin file.
-    #kitti_ds.create_reduced_point_cloud(root_path)
+    kitti_ds.create_reduced_point_cloud(root_path)
 
 
     # dbinfos_train.pkl
