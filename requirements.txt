@@ -24,6 +24,5 @@ cython
 nbconvert
 imageio
 flake8
-libboost-dev
 ipykernel
 spconv
