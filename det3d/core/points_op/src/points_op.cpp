@@ -12,7 +12,7 @@
 namespace py = pybind11;
 using namespace pybind11::literals;
 
-#define CHECK_CONTIGUOUS(x) AT_CHECK(x.is_contiguous(), #x, " must be contiguous ")
+#define CHECK_CONTIGUOUS(x) TORCH_CHECK(x.is_contiguous(), #x, " must be contiguous ")
 
 template <typename DType, int NDim>
 int points_to_bev_kernel(py::array_t<DType> points,
